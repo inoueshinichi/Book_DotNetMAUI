@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UiLabel.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Hello, World!"
+                FontSize="32"
+                HorizontalTextAlignment="Center" />
+            <Label
+                Text="ようこそ .NET MAUI の世界へ"
+                FontSize="18"
+                HorizontalTextAlignment="Center" />
+            <Label FontSize="24">
+                坊ちゃん 
+            </Label>
+            <Label FontSize="18">
+                夏目漱石
+            </Label>
+            <Label>
+                親譲の無鉄砲小供の時から損ばかりしている。
+            </Label>
+                
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

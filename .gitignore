@@ -2,3 +2,13 @@
 TestMauiSample/bin/
 TestMauiSample/obj/
 TestMauiSample/.vs/
+
+# UiLabel
+UiLabel/bin/
+UiLabel/obj/
+UiLabel/.vs/
+
+# UiButton
+UiButton/bin/
+UiButton/obj/
+UiButton/.vs/

@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiLabel", "..\UiLabel\UiLabel.csproj", "{B36AC2F2-04EE-4464-B74F-D993DA001C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiButton", "..\UiButton\UiButton.csproj", "{7EC19359-163F-4B80-A2FD-41E7BF702250}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,18 @@ Global
 		{75654733-60A3-41A6-9C75-B4D3644527D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75654733-60A3-41A6-9C75-B4D3644527D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{75654733-60A3-41A6-9C75-B4D3644527D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B36AC2F2-04EE-4464-B74F-D993DA001C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36AC2F2-04EE-4464-B74F-D993DA001C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36AC2F2-04EE-4464-B74F-D993DA001C65}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B36AC2F2-04EE-4464-B74F-D993DA001C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36AC2F2-04EE-4464-B74F-D993DA001C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36AC2F2-04EE-4464-B74F-D993DA001C65}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7EC19359-163F-4B80-A2FD-41E7BF702250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC19359-163F-4B80-A2FD-41E7BF702250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC19359-163F-4B80-A2FD-41E7BF702250}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7EC19359-163F-4B80-A2FD-41E7BF702250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC19359-163F-4B80-A2FD-41E7BF702250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC19359-163F-4B80-A2FD-41E7BF702250}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
