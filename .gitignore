@@ -12,3 +12,20 @@ UiLabel/.vs/
 UiButton/bin/
 UiButton/obj/
 UiButton/.vs/
+
+# UiEntry
+UiEntry/bin/
+UiEntry/obj/
+UiEntry/.vs/
+
+# UiAnimation
+UiAnimation/bin/
+UiAnimation/obj/
+UiAnimation/.vs/
+
+# UiBrush
+UiBrush/bin/
+UiBrush/obj/
+UiBrush/.vs/
+
+

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UiBrush.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Background="red" />
+
+            <Label>
+                <Label.Background>
+                    <SolidColorBrush Color="Blue" />
+                </Label.Background>
+            </Label>
+
+            <Image
+                x:Name="imageNet"
+                Source="dotnet_bot.png"
+                HeightRequest="200"
+                HorizontalOptions="Center"
+            />
+
+            <HorizontalStackLayout
+                Spacing="15"
+                Padding="30.0"
+                HorizontalOptions="Center">
+
+                <Button
+                    Text="赤"
+                    Clicked="OnRedClicked"
+                    Margin="10" 
+                />
+                
+                <Button
+                    Text="線形グラデーション"
+                    Clicked="OnBlueClicked"
+                    Margin="10" 
+                />
+
+                <Button 
+                    Text="円形グラデーション"
+                    Clicked="OnYellowClicked"
+                    Margin="10"
+                />
+
+                <Button
+                    Text="Flexible User Color"
+                    Clicked="OnFlexibleUserColorClicked"
+                    Margin="10"
+                />
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

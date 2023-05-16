@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UiAnimation.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                x:Name="imageNet"
+                Source="lena_png.png"
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                Aspect="AspectFit"/>
+
+            <Button
+                Text="Animate Affine"
+                Clicked="OnClickedAnimateAffine"
+                HorizontalOptions="Center" 
+                
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
