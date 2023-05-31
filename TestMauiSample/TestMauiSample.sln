@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiEntry", "..\UiEntry\UiEnt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiAnimation", "..\UiAnimation\UiAnimation.csproj", "{C0789FE4-51B2-4CC4-99E2-7932096FC5CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiBrush", "..\UiBrush\UiBrush.csproj", "{C7BEDA12-7BC6-4369-9D89-BF95A2548936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiBrush", "..\UiBrush\UiBrush.csproj", "{C7BEDA12-7BC6-4369-9D89-BF95A2548936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiGrid", "..\UiGrid\UiGrid.csproj", "{FC9FD7B7-A95F-4870-BB84-973F63069536}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,12 @@ Global
 		{C7BEDA12-7BC6-4369-9D89-BF95A2548936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7BEDA12-7BC6-4369-9D89-BF95A2548936}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7BEDA12-7BC6-4369-9D89-BF95A2548936}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FC9FD7B7-A95F-4870-BB84-973F63069536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9FD7B7-A95F-4870-BB84-973F63069536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9FD7B7-A95F-4870-BB84-973F63069536}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC9FD7B7-A95F-4870-BB84-973F63069536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9FD7B7-A95F-4870-BB84-973F63069536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9FD7B7-A95F-4870-BB84-973F63069536}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

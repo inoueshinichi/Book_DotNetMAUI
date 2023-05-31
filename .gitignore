@@ -28,4 +28,9 @@ UiBrush/bin/
 UiBrush/obj/
 UiBrush/.vs/
 
+# UiGrid
+UiGrid/bin/
+UiGrid/obj/
+UiGrid/.vs/
+
 
