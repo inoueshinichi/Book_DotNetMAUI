@@ -28,9 +28,21 @@ UiBrush/bin/
 UiBrush/obj/
 UiBrush/.vs/
 
+# UiStack
+UiStack/bin/
+UiStack/obj/
+UiStack/.vs/
+
 # UiGrid
 UiGrid/bin/
 UiGrid/obj/
 UiGrid/.vs/
+
+# UiFlex
+UiFlex/bin/
+UiFlex/obj/
+UiFlex/.vs/
+
+
 
 
