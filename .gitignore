@@ -1,5 +1,6 @@
 # Solution
 .vs/
+.DS_Store
 
 # TestMauiSample
 TestMauiSample/bin/
