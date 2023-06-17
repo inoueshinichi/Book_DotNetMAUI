@@ -2,6 +2,9 @@
 .vs/
 .DS_Store
 
+# sample code
+/maui-samples-main/
+
 # TestMauiSample
 TestMauiSample/bin/
 TestMauiSample/obj/
@@ -46,6 +49,37 @@ UiGrid/.vs/
 UiFlex/bin/
 UiFlex/obj/
 UiFlex/.vs/
+
+# UiNavigation
+UiNavigation/bin/
+UiNavigation/obj/
+UiNavigation/.vs/
+
+# UiPopup
+UiPopup/bin/
+UiPopup/obj/
+UiPopup/.vs/
+
+# UiGraphics
+UiGraphics/bin/
+UiGraphics/obj/
+UiGraphics/.vs/
+
+# UiTheme
+UiTheme/bin/
+UiTheme/obj/
+UiTheme/.vs/
+
+# UiListView
+UiListView/bin/
+UiListView/obj/
+UiListView/.vs/
+
+# UiCollectionView
+UiCollectionView/bin/
+UiCollectionView/obj/
+UiCollectionView/.vs/
+
 
 
 

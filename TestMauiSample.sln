@@ -7,8 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMauiSample", "TestMauiS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{1AC2D7E3-71E8-41CE-8C57-7E0A59F0E6A3}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiLabel", "UiLabel\UiLabel.csproj", "{B36AC2F2-04EE-4464-B74F-D993DA001C65}"
@@ -21,11 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiAnimation", "UiAnimation\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiBrush", "UiBrush\UiBrush.csproj", "{C7BEDA12-7BC6-4369-9D89-BF95A2548936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiGrid", "UiGrid\UiGrid.csproj", "{FC9FD7B7-A95F-4870-BB84-973F63069536}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiGrid", "UiGrid\UiGrid.csproj", "{FC9FD7B7-A95F-4870-BB84-973F63069536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiStack", "UiStack\UiStack.csproj", "{2DBF1A3E-C000-46A8-A3E0-14AB41F05722}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiStack", "UiStack\UiStack.csproj", "{2DBF1A3E-C000-46A8-A3E0-14AB41F05722}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiFlex", "UiFlex\UiFlex.csproj", "{019161F2-75D0-4B67-9BB2-47D9E43DE98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiFlex", "UiFlex\UiFlex.csproj", "{019161F2-75D0-4B67-9BB2-47D9E43DE98C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiNavigation", "UiNavigation\UiNavigation.csproj", "{3F85D0E5-6416-47AD-963D-716EE4628B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPopup", "UiPopup\UiPopup.csproj", "{B8C45F4C-7B89-4704-AC98-022665972525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiGraphics", "UiGraphics\UiGraphics.csproj", "{0EBC9F28-33F4-4ED1-BF6D-D2B054461EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiTheme", "UiTheme\UiTheme.csproj", "{0E96D075-29E1-425A-A53B-236B82E9C6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiListView", "UiListView\UiListView.csproj", "{0B891E97-5406-4BBB-88F6-42CAEA214994}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +93,36 @@ Global
 		{019161F2-75D0-4B67-9BB2-47D9E43DE98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{019161F2-75D0-4B67-9BB2-47D9E43DE98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{019161F2-75D0-4B67-9BB2-47D9E43DE98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F85D0E5-6416-47AD-963D-716EE4628B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F85D0E5-6416-47AD-963D-716EE4628B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F85D0E5-6416-47AD-963D-716EE4628B08}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3F85D0E5-6416-47AD-963D-716EE4628B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F85D0E5-6416-47AD-963D-716EE4628B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F85D0E5-6416-47AD-963D-716EE4628B08}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B8C45F4C-7B89-4704-AC98-022665972525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C45F4C-7B89-4704-AC98-022665972525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C45F4C-7B89-4704-AC98-022665972525}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8C45F4C-7B89-4704-AC98-022665972525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C45F4C-7B89-4704-AC98-022665972525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C45F4C-7B89-4704-AC98-022665972525}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0EBC9F28-33F4-4ED1-BF6D-D2B054461EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBC9F28-33F4-4ED1-BF6D-D2B054461EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBC9F28-33F4-4ED1-BF6D-D2B054461EF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0EBC9F28-33F4-4ED1-BF6D-D2B054461EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBC9F28-33F4-4ED1-BF6D-D2B054461EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBC9F28-33F4-4ED1-BF6D-D2B054461EF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0E96D075-29E1-425A-A53B-236B82E9C6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E96D075-29E1-425A-A53B-236B82E9C6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E96D075-29E1-425A-A53B-236B82E9C6E6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E96D075-29E1-425A-A53B-236B82E9C6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E96D075-29E1-425A-A53B-236B82E9C6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E96D075-29E1-425A-A53B-236B82E9C6E6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0B891E97-5406-4BBB-88F6-42CAEA214994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B891E97-5406-4BBB-88F6-42CAEA214994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B891E97-5406-4BBB-88F6-42CAEA214994}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0B891E97-5406-4BBB-88F6-42CAEA214994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B891E97-5406-4BBB-88F6-42CAEA214994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B891E97-5406-4BBB-88F6-42CAEA214994}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
