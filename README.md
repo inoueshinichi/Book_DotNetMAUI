@@ -2,7 +2,10 @@
 .NET MAUIによるマルチプラットフォームアプリ開発
 
 ### 参考
-+ https://bookplus.nikkei.com/atcl/catalog/22/12/13/00558/
++ .NET MAUIの現状 https://www.docswell.com/s/hiro128_777/KW79X5-2022-09-30-184910#p16
++ 日経記事 https://bookplus.nikkei.com/atcl/catalog/22/12/13/00558/
+
+### サンプルコード
 + https://github.com/moonmile/maui-samples/
 
 
