@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiCollectionView", "UiColle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiPicker", "UiPicker\UiPicker.csproj", "{488C8B69-E52B-47E9-9CB0-982D459F782B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiSwitch", "UiSwitch\UiSwitch.csproj", "{B2E5A758-8336-419A-879B-B06670CA3573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiSwitch", "UiSwitch\UiSwitch.csproj", "{B2E5A758-8336-419A-879B-B06670CA3573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePicker", "DatePicker\DatePicker.csproj", "{AF4D054D-8F5D-482F-9CD2-AC09CE5F4BE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatePicker", "DatePicker\DatePicker.csproj", "{AF4D054D-8F5D-482F-9CD2-AC09CE5F4BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmBasic", "MvvmBasic\MvvmBasic.csproj", "{D3C70EA0-5BA7-432E-9F46-501BD8413B53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +157,12 @@ Global
 		{AF4D054D-8F5D-482F-9CD2-AC09CE5F4BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF4D054D-8F5D-482F-9CD2-AC09CE5F4BE5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF4D054D-8F5D-482F-9CD2-AC09CE5F4BE5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
