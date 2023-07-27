@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiSwitch", "UiSwitch\UiSwit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatePicker", "DatePicker\DatePicker.csproj", "{AF4D054D-8F5D-482F-9CD2-AC09CE5F4BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmBasic", "MvvmBasic\MvvmBasic.csproj", "{D3C70EA0-5BA7-432E-9F46-501BD8413B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmBasic", "MvvmBasic\MvvmBasic.csproj", "{D3C70EA0-5BA7-432E-9F46-501BD8413B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmPrismBasic", "MvvmPrismBasic\MvvmPrismBasic.csproj", "{20825698-BBAC-44BD-95D6-3503063E223E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -163,6 +165,12 @@ Global
 		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3C70EA0-5BA7-432E-9F46-501BD8413B53}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{20825698-BBAC-44BD-95D6-3503063E223E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20825698-BBAC-44BD-95D6-3503063E223E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20825698-BBAC-44BD-95D6-3503063E223E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{20825698-BBAC-44BD-95D6-3503063E223E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20825698-BBAC-44BD-95D6-3503063E223E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20825698-BBAC-44BD-95D6-3503063E223E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

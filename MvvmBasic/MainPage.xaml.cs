@@ -1,4 +1,5 @@
 ﻿namespace MvvmBasic;
+
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
@@ -10,6 +11,7 @@ public partial class MainPage : ContentPage
         InitializeComponent();
         this.Loaded += (_, _) =>
         {
+            // ViewとViewModelの結びつけを設定する.
             this.BindingContext = _vm;
         };
      }
@@ -20,6 +22,7 @@ public partial class MainPage : ContentPage
 // ViewModel
 public class MyViewModel : INotifyPropertyChanged
 {
+    // ViewModelからviewにプロパティの値が変更したことを通知する定番の方法
     public event PropertyChangedEventHandler PropertyChanged;
     private string _hello = "Hello, world!";
     public string Hello
@@ -27,10 +30,10 @@ public class MyViewModel : INotifyPropertyChanged
         get => _hello;
         set
         {
-            if (_hello != value)
+            if (_hello != null)
             {
                 _hello = value;
-                OnPropertyChanged();
+                OnPropertyChanged(); // HelloプロパティにOnPropertyChangedメソッドを設定
             }
         }
     }
